@@ -1,0 +1,152 @@
+html, body, .menu, h1, h2, h3, h4, p {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Bariol;
+	font-size: 18pt;
+	color: black;
+	text-align: center;
+}
+h1 {
+	font-size: 35pt;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	letter-spacing: 5px;
+}
+h2 {
+	font-size: 18pt;
+	padding: 2px;
+	letter-spacing: 1px;
+	color: #6cc372;
+	
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.wrapper {
+	max-width: 1000px;
+	background: inherit;
+	height: inherit;
+	margin: 0 auto;
+	overflow: hidden 
+}
+.menu {
+	background: #f46262;
+	min-height: 80px;
+}
+
+.logo img{
+	float: left;
+	margin: 10px;
+	width: 100px;
+}
+ul {
+	line-height: 80px;
+}
+#menu li{
+	display: inline-block;
+	float: right;
+	margin-top: 20px; 
+	margin-right: 35px;
+	font: 14pt Arial;
+	text-align: right;
+}
+#menu li:hover {
+	background: #232323;
+	padding: 5px;
+	border-radius: 3px;
+	transition: width 1s;
+}
+.header {
+	background: #eb504e;
+	min-height: 60px;
+}
+.header p {
+	font-size: 16pt;
+	margin-bottom: 15px;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+.team {
+	background: #6cc372;
+	min-height: 600px;
+}
+.team p {
+	font-size: 14pt;
+	font-weight: 600;
+	color: #232323;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	letter-spacing: 2px;
+}
+.talented_experts {
+	max-width: 1000px;
+	margin: auto;
+}
+.experts {
+	width: 230px;
+	background: #fff;
+	float: left;
+	margin: 10px;
+	margin-bottom: 30px;
+}
+.experts img{
+	width: 200px;
+}
+.experts h4 {
+	color: #6cc372;
+}
+.experts p {
+	font-size: 14pt;
+	color: #dc392e;
+	letter-spacing: 1px;
+}
+.follow {
+	width: 210px;
+	margin: 10px;
+	background: #6cc372;
+	border-radius: 3px;
+}
+.follow img {
+	width: 55px;
+	float: left;
+}
+.follow h4 {
+	color: #fff;
+	letter-spacing: 4px;
+	padding: 10px;
+	font-weight: normal;
+}
+.footer {
+	background: #232323;
+	min-height: 30px;
+}
+.copy {
+	float: left;
+}
+.footer p {
+	font-size: 16pt;
+	letter-spacing: 1px;
+	margin-top: 10px;
+}
+.footer span {
+	color: #eb504e;
+}
+.content {
+	width: 700px;
+	height: 300px;
+}
+.title {
+	width: 700px;
+	height: 50px;
+}
+.name {
+	font-size: 20pt;
+	color: white;
+}
+.auth {
+	text-align: left;
+}
+	

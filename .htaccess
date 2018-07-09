@@ -1,0 +1,17 @@
+Options -Indexes
+
+AddDefaultCharset UTF8
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule .* index.php?queryurl=$0 [QSA]
+
+<FilesMatch "\.(php)$">
+	Deny from all
+</FilesMatch>
+
+<FilesMatch "index.(php)$">
+	Allow from all
+</FilesMatch>
